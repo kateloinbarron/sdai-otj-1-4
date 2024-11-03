@@ -1,8 +1,11 @@
-h1{
-  text-align: center;}
+h1 {
+  text-align: center;
+}
+
 
 h2 {
-  text-align: center;}
+  text-align: center;
+}
 
 
 body {
@@ -15,16 +18,21 @@ body {
   color: #ffa500; 
   /* Vibrant orange accent */
 }
-p {color:darkblue;} /* darkblue paragraph texts for readability */
 
-p {font-size: 18px;} /*increasing font size for readability */
+p { 
+  color:darkblue;/* darkblue paragraph texts for readability */
+  font-size: 18px;/*increasing font size for readability */
+} 
 
-h3 {color:darkblue; font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+h3 {
+  color:darkblue; 
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-h4{color:darkblue;font-size: 16px;
-   font-family:'Times New Roman', Times, serif
+h4{color:darkblue;
+  font-size: 16px;
+  font-family:'Times New Roman', Times, serif
 }
 
 .centered-paragraph {
@@ -35,22 +43,38 @@ h4{color:darkblue;font-size: 16px;
   text-align: center;
 }
 
-.centered-span {text-align: center;}
+.centered-span {
+  text-align: center;
+}
 
-.centered-li {text-align:center;}
+.centered-li {
+  text-align:center;
+  list-style-type: none;
+  margin: 50px;
+}
 
-.centered-footer {text-align: center;}
+.centered-footer {
+  text-align: center;
+}
+
+.centered-li {
+  text-align:center;
+  list-style-type: none;
+  margin: 50px;
+}
 
 h1, h2, h3 {
-  margin-top: 20px;    /* Space above the heading */
-  margin-bottom: 10px; /* Space below the heading */
+  margin-top: 15px;    /* Space above the heading */
+  margin-bottom: 15px; /* Space below the heading */
   padding: 0;          /* Typically no padding on headings */
+  line-height: 1.5em;
 }
 
 p {
-  margin-top: 10px;    /* Space above each paragraph */
-  margin-bottom: 10px; /* Space below each paragraph */
+  margin-top: 15px;    /* Space above each paragraph */
+  margin-bottom: 15px; /* Space below each paragraph */
   padding: 0;          /* Typically no padding on paragraphs */
+  line-height: 1.5em;
 }
 
 
