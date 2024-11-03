@@ -8,6 +8,7 @@ h2 {
 body {
   background-color: #ffd1a1; /* Bright pastel background */
   color: #333; /* Dark text for contrast */
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .accent {
@@ -16,7 +17,43 @@ body {
 }
 p {color:darkblue;} /* darkblue paragraph texts for readability */
 
-p {font-size: 20px;} /*increasing font size for readability */
+p {font-size: 18px;} /*increasing font size for readability */
+
+h3 {color:darkblue; font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{color:darkblue;font-size: 16px;
+   font-family:'Times New Roman', Times, serif
+}
+
+.centered-paragraph {
+  text-align: center;
+}
+
+.centered-header {
+  text-align: center;
+}
+
+.centered-span {text-align: center;}
+
+.centered-li {text-align:center;}
+
+.centered-footer {text-align: center;}
+
+h1, h2, h3 {
+  margin-top: 20px;    /* Space above the heading */
+  margin-bottom: 10px; /* Space below the heading */
+  padding: 0;          /* Typically no padding on headings */
+}
+
+p {
+  margin-top: 10px;    /* Space above each paragraph */
+  margin-bottom: 10px; /* Space below each paragraph */
+  padding: 0;          /* Typically no padding on paragraphs */
+}
+
+
 
   
    
