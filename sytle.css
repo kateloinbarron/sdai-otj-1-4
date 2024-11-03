@@ -1,6 +1,14 @@
 body {
-    background-color: #8fbc8f; /* sage green */
-    color: #333333; /* dark text for readability */
-  }
+  background-color: #ffd1a1; /* Bright pastel background */
+  color: #333; /* Dark text for contrast */
+}
+
+.accent {
+  color: #ffa500; /* Vibrant orange accent */
+}
+p {text-color: blue;} /* dodger blue for text */
+
+
+
   
    
