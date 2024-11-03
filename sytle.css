@@ -1,14 +1,22 @@
+h1{
+  text-align: center;}
+
+h2 {
+  text-align: center;}
+
+
 body {
   background-color: #ffd1a1; /* Bright pastel background */
   color: #333; /* Dark text for contrast */
 }
 
 .accent {
-  color: #ffa500; /* Vibrant orange accent */
+  color: #ffa500; 
+  /* Vibrant orange accent */
 }
-p {text-color: blue;} /* dodger blue for text */
+p {color:darkblue;} /* darkblue paragraph texts for readability */
 
-
+p {font-size: 20px;} /*increasing font size for readability */
 
   
    
