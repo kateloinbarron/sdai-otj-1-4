@@ -1,4 +1,18 @@
-h1 {
+
+.menu-title {
+  width: 800px;               /* Set the width of the menu title */
+  margin: 0 auto;             /* Center the element horizontally */
+  text-align: center;         /* Center-align the text inside the element */
+}
+
+.sub-menu {
+  width: 800px;               /* Set the width of the menu title */
+  margin: 0 auto;             /* Center the element horizontally */
+  text-align: center;         /* Center-align the text inside the element */
+}
+
+
+h1 { 
   text-align: center;
 }
 
@@ -21,19 +35,20 @@ body {
 
 p { 
   color:darkblue;/* darkblue paragraph texts for readability */
-  font-size: 18px;/*increasing font size for readability */
+  font-size: 16px;/*increasing font size for readability */
 } 
 
 h3 {
   color:darkblue; 
-  font-size: 18px;
+  font-size: 19px;
   font-family: 'Times New Roman', Times, serif;
-}
+  }
 
 h4{color:darkblue;
   font-size: 16px;
-  font-family:'Times New Roman', Times, serif
-}
+  font-family:'Times New Roman', Times, serif;
+  list-style-type: none;
+  }
 
 .centered-paragraph {
   text-align: center;
