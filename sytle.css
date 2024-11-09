@@ -92,7 +92,9 @@ p {
   line-height: 1.5em;
 }
 
-
+.centered-paragraph{
+  text-align: center;
+}
 
   
    
