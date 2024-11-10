@@ -21,6 +21,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 
 body {
   background-color: #ffd1a1; /* Bright pastel background */
@@ -81,8 +85,8 @@ h4{color:darkblue;
 h1, h2, h3 {
   margin-top: 15px;    /* Space above the heading */
   margin-bottom: 15px; /* Space below the heading */
-  padding: 0;          /* Typically no padding on headings */
-  line-height: 1.5em;
+  padding: 2;          /* Typically no padding on headings */
+  line-height: 2em;
 }
 
 p {
@@ -92,9 +96,11 @@ p {
   line-height: 1.5em;
 }
 
-.centered-paragraph{
-  text-align: center;
-}
+.image-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
 
   
    
