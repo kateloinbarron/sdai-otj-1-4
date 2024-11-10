@@ -9,6 +9,21 @@
   width: 800px;               /* Set the width of the menu title */
   margin: 0 auto;             /* Center the element horizontally */
   text-align: center;         /* Center-align the text inside the element */
+  }
+
+  .menu-container {
+    border: 2px solid darkblue; /* A solid border, 2px thick, in dark gray */
+    padding: 15px; /* Space inside the border */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 600px; /* Set a max width for a neat appearance */
+    margin: auto; /* Center the container on the page */
+}
+.sub-menu-container {
+  border: 2px solid darkblue; /* A solid border, 2px thick, in dark gray */
+  padding: 15px; /* Space inside the border */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 600px; /* Set a max width for a neat appearance */
+  margin: auto; /* Center the container on the page */
 }
 
 
@@ -39,8 +54,10 @@ body {
 
 p { 
   color:darkblue;/* darkblue paragraph texts for readability */
-  font-size: 16px;/*increasing font size for readability */
-} 
+  font-size: 16px;/*increasing font size for readability */    
+  margin-top: 20px; /* Adds space above each paragraph */
+}
+
 
 h3 {
   color:darkblue; 
@@ -55,10 +72,10 @@ h4{color:darkblue;
   }
 
 .centered-paragraph {
-  margin-top: 10px;    /* Space above each paragraph */
-  margin-bottom: 10px; /* Space below each paragraph */
-  padding: 3%;          /* Typically no padding on paragraphs */
-  line-height: 1%;
+  margin-top: 15px;    /* Space above each paragraph */
+  margin-bottom: 15px; /* Space below each paragraph */
+  padding: 0;          /* Typically no padding on paragraphs */
+  line-height: 1em;
   text-align: center;
   }
 
@@ -68,6 +85,8 @@ h4{color:darkblue;
 
 .centered-span {
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
   }
 
 .centered-li {
@@ -86,7 +105,7 @@ h3 {
   text-align: center;
   list-style-type: none;
   margin: 40px;
-   } 
+  } 
 
  .centered-li {
   text-align:center;
@@ -95,16 +114,16 @@ h3 {
 }
 
 h1, h2, h3 {
-  margin-top: 15px;    /* Space above the heading */
-  margin-bottom: 15px; /* Space below the heading */
-  padding: 2;          /* Typically no padding on headings */
+  margin-top: 30px;    /* Space above the heading */
+  margin-bottom: 5px; /* Space below the heading */
+  padding: 0;          /* Typically no padding on headings */
   line-height: 1em;
 }
 
 p {
-  margin-top: 15px;    /* Space above each paragraph */
-  margin-bottom: 15px; /* Space below each paragraph */
-  padding: 2;          /* Typically no padding on paragraphs */
+  margin-top: 5px;    /* Space above each paragraph */
+  margin-bottom: 5px; /* Space below each paragraph */
+  padding: 0;          /* Typically no padding on paragraphs */
   line-height: 1em;
 }
 
