@@ -16,14 +16,14 @@
     padding: 15px; /* Space inside the border */
     border-radius: 8px; /* Rounded corners */
     max-width: 600px; /* Set a max width for a neat appearance */
-    margin: auto; /* Center the container on the page */
+    margin: 50px auto; /* Center the container on the page */
 }
 .sub-menu-container {
   border: 2px solid darkblue; /* A solid border, 2px thick, in dark gray */
   padding: 15px; /* Space inside the border */
   border-radius: 8px; /* Rounded corners */
   max-width: 600px; /* Set a max width for a neat appearance */
-  margin: auto; /* Center the container on the page */
+  margin: 50px auto; /* Center the container on the page */
 }
 
 
@@ -132,16 +132,16 @@ p {
   justify-content: space-evenly;
   align-items: center;
   padding:4px;
-  line-height: 3em;
-  }
+  flex-wrap: wrap;
+}
 
-  .social-media {
+.social-media {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding:4px;
-    line-height: 3em;
-    }
+    flex-wrap: wrap;
+}
 
   
    
