@@ -142,6 +142,9 @@ p {
     padding:4px;
     flex-wrap: wrap;
 }
-
+.copyright {
+  display: flex;
+  margin: 60px auto;
+}
   
    
