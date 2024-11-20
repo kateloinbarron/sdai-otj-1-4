@@ -146,5 +146,14 @@ p {
   display: flex;
   margin: 60px auto;
 }
-  
+ /* Initial state: hidden and transparent */
+ .fade-in {
+  opacity: 0;
+  transition: opacity 10s ease-in-out; /* Adjust duration as needed */
+}
+
+/* Final state: fully visible */
+.visible {
+  opacity: 1;
+}  
    
